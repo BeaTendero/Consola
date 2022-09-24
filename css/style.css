@@ -1,0 +1,162 @@
+body{
+    background-color: aqua;
+    height: 97vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: black;
+    height: 60vh;
+    width: 70vw;
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.mando-izq{
+    background-color: rgb(4, 0, 255);
+    height: 60vh;
+    width: 13vw;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.pantalla{
+    height: 60vh;
+    width: 44vw;
+}
+
+.mando-der{
+    background-color: red;
+    height: 60vh;
+    width: 13vw;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.contenedor-menos{
+    background-color: rgb(179, 162, 10);
+    height: 5vh;
+    width: 13vw; 
+    border-top-left-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-joystic{
+    background-color: aliceblue;
+    height: 15vh;
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-flechas{
+    background-color: blueviolet;
+    height: 25vh;
+    width: 13vw;
+}
+.contenedor-boton{
+    background-color: coral;
+    height: 5vh;
+    width: 13vw;
+    
+}
+.contenedor-hueco{
+    background-color: crimson;
+    height: 10vh;
+    width: 13vw;
+    border-bottom-left-radius: 50px;
+}
+.contenedor-mas{
+    background-color: rgb(179, 162, 10);
+    height: 5vh;
+    width: 13vw; 
+    border-top-right-radius: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.contenedor-controle{
+    background-color: aliceblue;
+    height: 15vh;
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-botones{
+    background-color: blueviolet;
+    height: 25vh;
+    width: 13vw;
+}
+.contenedor-home{
+    background-color: coral;
+    height: 5vh;
+    width: 13vw;
+    
+}
+.contenedor-espacio{
+    background-color: crimson;
+    height: 10vh;
+    width: 13vw;
+    border-bottom-right-radius: 50px;
+}
+.minus{
+    background-color: black;
+    height: 7px;
+    width: 20px;
+    margin-left: 9vw;
+
+}
+.mas{
+   
+  height: 5vh;
+  width: 5vw;
+ display: flex;
+ align-items: center;
+ justify-content: left;
+ padding-left: 15px;
+
+}
+.horizontal{
+    background-color: black;
+    height: 7px;
+    width: 20px;
+}
+.vertical{
+    background-color: black;
+    height: 20px;
+    width: 7px;
+    margin-left: -13.3px;
+}
+.circulo{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-style: double; 
+    border-color: gray;
+    border-width: 9px;
+}
+.redondo{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: gray;
+    border-width: 9px;
+}
