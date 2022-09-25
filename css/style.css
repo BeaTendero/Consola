@@ -7,7 +7,7 @@ body{
     align-items: center;
 }
 .container{
-    background-color: black;
+    background-color: rgb(29, 28, 28);
     height: 60vh;
     width: 70vw;
     display: flex ;
@@ -47,7 +47,7 @@ body{
     justify-content: center;
 }
 .contenedor-menos{
-    background-color: rgb(179, 162, 10);
+    background-color: rgb(40, 171, 204);
     height: 5vh;
     width: 13vw; 
     border-top-left-radius: 50px;
@@ -56,7 +56,7 @@ body{
     justify-content: center;
 }
 .contenedor-joystic{
-    background-color: aliceblue;
+    background-color:rgb(40, 171, 204);
     height: 15vh;
     width: 13vw;
     display: flex;
@@ -64,24 +64,26 @@ body{
     justify-content: center;
 }
 .contenedor-flechas{
-    background-color: blueviolet;
+    background-color: rgb(40, 171, 204);
     height: 25vh;
     width: 13vw;
+    justify-content: center;
+    display: block;
 }
 .contenedor-boton{
-    background-color: coral;
+    background-color:rgb(40, 171, 204);
     height: 5vh;
     width: 13vw;
     
 }
 .contenedor-hueco{
-    background-color: crimson;
+    background-color: rgb(40, 171, 204);;
     height: 10vh;
     width: 13vw;
     border-bottom-left-radius: 50px;
 }
 .contenedor-mas{
-    background-color: rgb(179, 162, 10);
+    background-color: rgb(255, 31, 15);
     height: 5vh;
     width: 13vw; 
     border-top-right-radius: 50px;
@@ -90,7 +92,7 @@ body{
     align-items: center;
 }
 .contenedor-controle{
-    background-color: aliceblue;
+    background-color:rgb(255, 31, 15) ;
     height: 15vh;
     width: 13vw;
     display: flex;
@@ -98,18 +100,18 @@ body{
     justify-content: center;
 }
 .contenedor-botones{
-    background-color: blueviolet;
+    background-color: rgb(255, 31, 15);;
     height: 25vh;
     width: 13vw;
 }
 .contenedor-home{
-    background-color: coral;
+    background-color:rgb(255, 31, 15);
     height: 5vh;
     width: 13vw;
     
 }
 .contenedor-espacio{
-    background-color: crimson;
+    background-color:rgb(255, 31, 15);
     height: 10vh;
     width: 13vw;
     border-bottom-right-radius: 50px;
@@ -119,12 +121,11 @@ body{
     height: 7px;
     width: 20px;
     margin-left: 9vw;
-
 }
+
 .mas{
-   
-  height: 5vh;
-  width: 5vw;
+ height: 5vh;
+ width: 5vw;
  display: flex;
  align-items: center;
  justify-content: left;
@@ -159,4 +160,75 @@ body{
     border-style: double;
     border-color: gray;
     border-width: 9px;
+}
+.bottom{
+    background-color: black;
+    height: 22px;
+    width: 22px;
+    margin-left: 9vw; 
+    margin-top: 0.5vw;
+}
+.casa{
+    background-color: black;
+    height: 18px;
+    width: 18px;
+    margin-left: 1.7vw;
+    margin-top: 0.5vw;
+    border-radius: 100%;
+   border-style: ridge;
+    border-color: rgb(158, 158, 158);
+}
+img {
+    justify-content: center;
+    display: flex;
+    width: 42.5vw;
+    height: 56vh;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.fledown {
+    width: 0;
+    height: 0;
+ border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-top: 0.9em solid rgb(53, 53, 53);
+}
+.fleup {
+    width: 0;
+    height: 0;
+ border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.9em solid rgb(53, 53, 53);
+}
+.fleleft {
+    width: 0;
+    height: 0;
+border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.9em solid rgb(53, 53, 53);
+transform: rotate(30deg);
+}
+.fleright {
+    width: 0;
+    height: 0;
+border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.9em solid rgb(53, 53, 53);
+transform: rotate(90deg);
+
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 2em;
+    width: 2em;
+ border-radius: 100%;
+    background-image: linear-gradient(to right, black, rgb(59, 58, 58));
+    color: white;
+    font-size: 1em; 
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);   
+margin-left: 67px;
 }
