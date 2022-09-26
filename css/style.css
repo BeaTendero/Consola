@@ -227,16 +227,16 @@ img {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 12em;
+    height: 11.3em;
 }
 .row-circle {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 12em;
-    margin-top: -7em;
-    margin-left: 1.7em;
+    width: 11.1em;
+    margin-top: -6.5em;
+    margin-left: 1.em;
 }
 .fleup {
     width: 0;
