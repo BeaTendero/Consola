@@ -103,6 +103,10 @@ body{
     background-color: rgb(255, 31, 15);;
     height: 25vh;
     width: 13vw;
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
 }
 .contenedor-home{
     background-color:rgb(255, 31, 15);
@@ -188,12 +192,51 @@ img {
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.fledown {
-    width: 0;
-    height: 0;
- border-left: 0.5em solid transparent;
-    border-right: 0.5em solid transparent;
-    border-top: 0.9em solid rgb(53, 53, 53);
+.rowCircle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 12em;
+    margin-left: -5em;
+}
+.columnCircle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 12em;
+    margin-left: -7em;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    border-radius: 100%;
+    background-image: linear-gradient(to right, black, rgb(59, 58, 58));
+    color: white;
+    font-size: 1em; 
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);   
+
+}
+.column-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 12em;
+}
+.row-circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 12em;
+    margin-top: -7em;
+    margin-left: 1.7em;
 }
 .fleup {
     width: 0;
@@ -202,33 +245,24 @@ img {
     border-right: 0.5em solid transparent;
     border-bottom: 0.9em solid rgb(53, 53, 53);
 }
+.fledown {
+    width: 0;
+    height: 0;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-top: 0.9em solid rgb(53, 53, 53);
+}
 .fleleft {
     width: 0;
     height: 0;
-border-left: 0.5em solid transparent;
-    border-right: 0.5em solid transparent;
-    border-bottom: 0.9em solid rgb(53, 53, 53);
-transform: rotate(30deg);
+    border-top: 0.5em solid transparent;
+    border-bottom: 0.5em solid transparent;
+    border-right: 0.9em solid rgb(53, 53, 53);
 }
 .fleright {
     width: 0;
     height: 0;
-border-left: 0.5em solid transparent;
-    border-right: 0.5em solid transparent;
-    border-bottom: 0.9em solid rgb(53, 53, 53);
-transform: rotate(90deg);
-
-}
-.circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-height: 2em;
-    width: 2em;
- border-radius: 100%;
-    background-image: linear-gradient(to right, black, rgb(59, 58, 58));
-    color: white;
-    font-size: 1em; 
-    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);   
-margin-left: 67px;
+    border-top: 0.5em solid transparent;
+    border-bottom: 0.5em solid transparent;
+    border-left: 0.9em solid rgb(53, 53, 53);
 }
