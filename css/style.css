@@ -39,8 +39,8 @@ body{
     background-color: red;
     height: 60vh;
     width: 13vw;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 80%;
+    border-bottom-right-radius: 80%;
     display: flex;
     flex-direction: column;
     align-content: center;
